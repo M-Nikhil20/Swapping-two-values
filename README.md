@@ -18,8 +18,17 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
+n1=input()
+n2=input()
+temp=n2
+n2=n1
+n1=temp
 
-
+print("Swapped values are:",n1,n2)
+```
+## OUTPUT:
+![OUTPUT](Screenshot%20(32).png)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
